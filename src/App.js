@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import User from './user/user'
 import Student from "./user/student";
+import Home from "./user/home";
+import LoginControl from "./user/LoginControl";
 class App extends React.Component{
     //(构造函数，初始化状态值)  1
     constructor(props) {
@@ -33,6 +35,8 @@ class App extends React.Component{
        return (
            <div className="App">
                {/*<Student/>*/}
+               {/*<Home isTrue={true}/>*/}
+               <LoginControl />
            </div>
        );
    }
