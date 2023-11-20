@@ -9,6 +9,9 @@ import Demo5 from './demo/Demo5'
 import Demo6 from './demo/Demo6'
 import Demo7 from './demo/Demo7'
 import Demo1 from './demo/Demo1'
+import Greet from './demo/Demo2'
+import Demo3 from './demo/Demo3'
+import Demo8 from './demo/Demo8'
 /* 路由 BrowserRouter 和 HashRouter 都可以实现路由功能
 class App extends React.Component{
     render(){
@@ -35,13 +38,16 @@ class App extends React.Component{
     }
 
     render(){
+        return <Demo8/>
+        //return <Demo3/>
         // return <Demo1 name={"标题1"}/>
         // return <Demo2 name="ad" age="22"/>
         //return <Demo4 />
         //return <Demo5 name='张三' age='22' sex='男'/>
         //return <Demo6 list= {list}/>
         //return <Demo7 age={22} list={[1,2,3]} isTrue={true}/>
-        return <Demo1 name={'张三'}/>
+        //return <Demo1 name={'张三'}/>
+        //return <Greet name={'王五'}/>
     }
 }
 export default App;
