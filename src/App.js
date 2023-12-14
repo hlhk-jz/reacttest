@@ -14,6 +14,7 @@ import Demo3 from './demo/Demo3'
 import Demo8 from './demo/Demo8'
 import Demo9 from './demo/Demo9'
 import Hook from './demo/Demo10'
+import Demo11 from './demo/Demo11'
 /* 路由 BrowserRouter 和 HashRouter 都可以实现路由功能
 class App extends React.Component{
     render(){
@@ -40,7 +41,8 @@ class App extends React.Component{
     }
 
     render(){
-        return <Hook/>
+        return <Demo11/>
+        //return <Hook/>
         //return <Demo9/>
         //return <Demo8/>
         //return <Demo3/>
