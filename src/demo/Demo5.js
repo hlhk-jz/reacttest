@@ -3,11 +3,15 @@ import React from 'react';
 class Demo5 extends React.Component {
     render(){
         return (
-             <ul>
-               <li>姓名：{this.props.name}</li>
-               <li>性别：{this.props.sex}</li>
-               <li>年龄：{this.props.age+1}</li>
-             </ul>
+            <div>
+                <ul>
+                    <li>姓名：{this.props.name}</li>
+                    <li>性别：{this.props.sex}</li>
+                    <li>年龄：{this.props.age+1}</li>
+                </ul>
+
+                <button onClick={this.props.show}>按钮</button>
+            </div>
         )
     }
 }

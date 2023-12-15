@@ -40,8 +40,13 @@ class App extends React.Component{
         this.state = {count: 0};
     }
 
+    //方法也可以通过props传递给子类，事件进行调用该方法
+    show(){
+        console.log("======================")
+    }
+
     render(){
-        return <Demo11/>
+        //return <Demo11/>
         //return <Hook/>
         //return <Demo9/>
         //return <Demo8/>
@@ -49,11 +54,12 @@ class App extends React.Component{
         // return <Demo1 name={"标题1"}/>
         // return <Demo2 name="ad" age="22"/>
         //return <Demo4 />
-        //return <Demo5 name='张三' age='22' sex='男'/>
+        return <Demo5 name='张三' age='22' sex='男' show={this.show}/>
         //return <Demo6 list= {list}/>
         //return <Demo7 age={22} list={[1,2,3]} isTrue={true}/>
         //return <Demo1 name={'张三'}/>
         //return <Greet name={'王五'}/>
     }
+
 }
 export default App;
