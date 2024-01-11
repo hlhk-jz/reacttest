@@ -23,4 +23,16 @@ class Demo1 extends React.Component{
         this.setState({name:"赵六"})
     }
 }
-export default Demo1;
+
+class Demo111 extends React.Component{
+    state={
+        name:"hello"
+    }
+    show=()=>{
+        this.setState({name:"王五"})
+    }
+    render() {
+        return <button onClick={this.show}>按钮+{this.state.name}</button>
+    }
+}
+export default Demo111;
