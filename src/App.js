@@ -19,6 +19,9 @@ import Demo11 from './demo/Demo11'
 import Demo12 from './demo/Demo12'
 import Demo13 from './demo/Demo13'
 import Demo14 from './demo/Demo14'
+import Test1 from './demo/test/Test1'
+import Show1 from './demo/test/Test2'
+import MemoTwe from './demo/test/Test3'
 /* 路由 BrowserRouter 和 HashRouter 都可以实现路由功能
 class App extends React.Component{
     render(){
@@ -50,7 +53,10 @@ class App extends React.Component{
     }
 
     render(){
-        return <Demo14/>
+        return <MemoTwe/>
+       // return <Show1/>
+        //return <Test1/>
+        //return <Demo14/>
         //return <Demo13/>
         //return <Demo12/>
         //return <Demo11/>
